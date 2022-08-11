@@ -1,0 +1,9 @@
+.separator-container {}
+
+.separator-wrapper {}
+
+.separator {
+    background-color: var(--highlight-background-color);
+    border: 0;
+    height: 1px;
+}
