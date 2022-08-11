@@ -1,0 +1,28 @@
+.accordion-container {}
+
+.accordion-wrapper {}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accordion-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accordion-title {
+    margin: 0;
+}
+
+.accordion-body {
+    border: 1px solid var(--highlight-background-color);
+    padding: 1rem;
+}
+
+.accordion-row:not(.shown) .accordion-body {
+    display: none;
+}
